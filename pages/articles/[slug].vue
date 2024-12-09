@@ -12,6 +12,7 @@
     </div>
   </main>
 </template>
+
 <script setup>
 const route = useRoute();
 const { slug } = route.params;
@@ -21,6 +22,7 @@ useSeoMeta({
   articleAuthor: "Fayaz Ahmed",
 });
 </script>
+
 <style>
 .prose h2 a,
 .prose h3 a {

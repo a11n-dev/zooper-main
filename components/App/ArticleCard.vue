@@ -1,6 +1,11 @@
 <template>
   <NuxtLink :to="article._path" class="group">
     <article>
+      <nuxt-img
+        src="/articles/how-to-use-two-github-accounts-on-a-macbook-the-right-way.png"
+        class="mb-4"
+      />
+
       <time
         class="relative z-10 order-first mb-3 flex items-center text-sm text-gray-400 dark:text-gray-500 pl-3.5"
         datetime="2022-09-05"
@@ -13,11 +18,13 @@
         ></span>
         {{ getReadableDate(article.published) }}
       </time>
+
       <h2
         class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-primary-600"
       >
         {{ article.title }}
       </h2>
+
       <p class="relative z-10 mt-2 text-sm text-gray-600 dark:text-gray-400">
         {{ article.description }}
       </p>

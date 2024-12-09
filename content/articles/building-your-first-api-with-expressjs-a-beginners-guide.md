@@ -1,6 +1,6 @@
 ---
 title: "Building Your First API with Express.js: A Beginner's Guide"
-description: "A beginner-friendly guide to building your first API with Express.js"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 published: 2023/11/2
 slug: "building-your-first-api-with-expressjs-a-beginners-guide"
 ---
